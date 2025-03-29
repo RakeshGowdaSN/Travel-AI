@@ -11,7 +11,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code into the container
-# COPY . /pitch-hub/
 COPY . .
 
 # Expose the port that FastAPI will run on (default 8000)
