@@ -1,4 +1,4 @@
-PROJECT_ID = "pitchhubsmes"
+PROJECT_ID = <Your project ID>
 REGION = "us-central1"
 LOCATION = "us-central1"
 model = "gemini-1.5-flash-001"
