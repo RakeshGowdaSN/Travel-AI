@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define variables
-SERVICE_NAME="travel-assist-repo"
-PROJECT_ID="pitchhubsmes"
-REGION="us-central1"
+SERVICE_NAME=<Your Service Name>
+PROJECT_ID=<Your project ID>
+REGION=<Your Region>
 REPO_NAME="${SERVICE_NAME}"
 IMAGE_NAME="us-central1-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$SERVICE_NAME"
 
