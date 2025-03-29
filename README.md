@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Travel-AI
-Travel AI is an application designed to enhance travel planning and provide personalized recommendations using AI. The application leverages Google Maps API, Google Cloud Firestore, and Vertex AI to offer features like itinerary planning, weather forecasts, transit information, and more.
-=======
 # Travel AI
 
 Travel AI is an application designed to enhance travel planning and provide personalized recommendations using AI. The application leverages Google Maps API, Google Cloud Firestore, and Vertex AI to offer features like itinerary planning, weather forecasts, transit information, and more.
@@ -200,4 +196,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
->>>>>>> 8e26ab9 (Initial commit for Travel AI)
