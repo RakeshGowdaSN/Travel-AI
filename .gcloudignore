@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore common unnecessary files
+*.pyc
+*.pyo
+.DS_Store
+*.log
+
+# Ignore environment variables file (if you want to handle them via Cloud Secret Manager or Environment Variables)
+.env
+
+# Ignore git repository files
+.git/

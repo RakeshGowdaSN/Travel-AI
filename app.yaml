@@ -1,0 +1,13 @@
+service: 'traval-ai'  # Service name
+entrypoint: gunicorn -b :$PORT app:app  # Command to start FastAPI app
+# entrypoint: uvicorn app:app --host=0.0.0.0 --port=$PORT  # Command to start FastAPI app
+
+instance_class: F4_1G  # Flexible environment with 2 CPUs and 4GB of memory
+
+resources:
+  cpu: 4
+  memory_gb: 6
+  disk_size_gb: 20
+  
+runtime: custom  # Custom runtime for Docker deployment
+env: flex  # Flexible environment
